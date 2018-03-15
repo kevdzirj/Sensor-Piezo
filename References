@@ -1,3 +1,0 @@
-microsecond = pulseIn(echPin, HIGH); //time the echoPin takes to arrive
-centimeter= ((microsecond/2)*.03436); //divided by 2 because the sensor records the time hitting object to the time back to sensor & 
-                                      //the .03436 is the conversion factor fo speed of sound
